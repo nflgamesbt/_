@@ -106,7 +106,7 @@ if(form){
 
   bd.querySelector('#age-yes').addEventListener('click', function(){
 
-    window.location.href = "/gameforge/privacy.html"; // change to your target page
+    window.location.href = "/_/privacy.html"; // change to your target page
 
   });
  
