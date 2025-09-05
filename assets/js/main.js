@@ -119,7 +119,7 @@ if(form){
  
 (function(){
   const path = window.location.pathname;
-  const isHome = /(^\/$|index\.html$|lander\.html$)/.test(path);
+  const isHome = /(^\/$|lander\.html$)/.test(path);
   if(!isHome) return;
  
   const bd = document.createElement('div');
